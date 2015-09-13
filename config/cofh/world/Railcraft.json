@@ -1,0 +1,35 @@
+{
+    "firestone_ore": {
+        "template": "underfluid",
+        "block": { "name": "Railcraft:ore", "metadata": 5 },
+        "material": "minecraft:stone",
+        "chunkChance": 16,
+        "clusterSize": 1,
+        "numClusters": 4,
+        "genFluid": "minecraft:lava",
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ 1 ]
+    },
+    "saltpeter_ore": {
+        "template": "uniform",
+        "block": { "name": "Railcraft:ore", "metadata": 1 },
+        "material": "minecraft:sandstone",
+        "clusterSize": 4,
+        "numClusters": 32,
+        "minHeight": 32,
+        "maxHeight": 255,
+        "sizeVariance": 4,
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "sulfur_ore": {
+        "template": "underfluid",
+        "block": { "name": "Railcraft:ore", "metadata": 0 },
+        "material": "minecraft:stone",
+        "genFluid": "lava",
+        "clusterSize": 8,
+        "numClusters": 16,
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    }
+}

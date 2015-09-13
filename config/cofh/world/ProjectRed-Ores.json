@@ -1,0 +1,48 @@
+{
+    "peridot": {
+        "template": { "type": "normal", "generator": "spike" },
+        "block": { "name": "ProjRed|Exploration:projectred.exploration.ore", "metadata": 2 },
+        "chunkChance": 32,
+        "numClusters": 4,
+        "meanHeight": 0,
+        "maxVariance": 16,
+        "minHeight": 16,
+        "heightVariance": 8,
+        "largeSpikes": true,
+        "largeSpikeChance": 20,
+        "minLargeSpikeHeightGain": 8,
+        "maxLargeSpikeHeightVariance": 16,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            { "type": "dictionary", "entry": "DRY" }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "ruby": {
+        "template": "normal",
+        "block": { "name": "ProjRed|Exploration:projectred.exploration.ore", "metadata": 0 },
+        "chunkChance": 16,
+        "clusterSize": 4,
+        "numClusters": 8,
+        "meanHeight": 32,
+        "maxVariance": 16,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            { "type": "dictionary", "entry": "JUNGLE" }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "sapphire": {
+        "template": "normal",
+        "block": { "name": "ProjRed|Exploration:projectred.exploration.ore", "metadata": 1 },
+        "clusterSize": 4,
+        "numClusters": 8,
+        "chunkChance": 32,
+        "meanHeight": 32,
+        "maxVariance": 16,
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    }
+}

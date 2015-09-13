@@ -1,0 +1,85 @@
+{
+    "aluminum": {
+        "template": "normal",
+        "block": { "name": "TConstruct:SearedBrick", "metadata": 5 },
+        "chunkChance": 8,
+        "clusterSize": 24,
+        "numClusters": 6,
+        "meanHeight": 48,
+        "maxVariance": 16,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            { "type": "temperature", "entry": "WARM" },
+            { "type": "temperature", "entry": "MEDIUM" }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "ardite": {
+        "template": { "type": "normal", "generator": "cluster" },
+        "block": { "name": "TConstruct:SearedBrick", "metadata": 2 },
+        "material": "minecraft:netherrack",
+        "chunkChance": 4,
+        "clusterSize": 4,
+        "numClusters": 32,
+        "meanHeight": 96,
+        "maxVariance": 32,
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ -1 ]
+    },
+    "cobalt": {
+        "template": { "type": "normal", "generator": "cluster" },
+        "block": { "name": "TConstruct:SearedBrick", "metadata": 1 },
+        "material": "minecraft:netherrack",
+        "chunkChance": 4,
+        "clusterSize": 4,
+        "numClusters": 24,
+        "meanHeight": 32,
+        "maxVariance": 32,
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ -1 ]
+    },
+    "gold_gravel_ore": {
+        "template": "uniform",
+        "block": { "name": "TConstruct:GravelOre", "metadata": 1 },
+        "material": "minecraft:gravel",
+        "clusterSize": 1,
+        "numClusters": 4,
+        "minHeight": 56,
+        "maxHeight": 72,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            { "type": "dictionary", "entry": "RIVER" }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "iron_gravel_ore": {
+        "template": "uniform",
+        "block": { "name": "TConstruct:GravelOre", "metadata": 1 },
+        "material": "minecraft:gravel",
+        "clusterSize": 1,
+        "numClusters": 2,
+        "minHeight": 56,
+        "maxHeight": 72,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            { "type": "dictionary", "entry": "RIVER" }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "tin_gravel_ore": {
+        "template": { "type": "uniform", "generator": "plate" },
+        "block": { "name": "TConstruct:GravelOre", "metadata": 3 },
+        "material": "minecraft:gravel",
+        "clusterSize": 3,
+        "numClusters": 2,
+        "minHeight": 48,
+        "maxHeight": 64,
+        "sizeVariance": 2,
+        "slim": true,
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "coal_deep": {
+        "template": "normal",
+        "block": "minecraft:coal_ore",
+        "material": "minecraft:stone",
+        "chunkChance": 3,
+        "clusterSize": 8,
+        "numClusters": 2,
+        "meanHeight": 40,
+        "maxVariance": 8,
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "coal_swamp": {
+        "template": "normal",
+        "block": "minecraft:coal_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 32,
+        "meanHeight": 56,
+        "maxVariance": 4,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            { "type": "dictionary", "entry": "SWAMP" }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "diamond": {
+        "template": "normal",
+        "block": "diamond_ore",
+        "material": "minecraft:stone",
+        "chunkChance": 4,
+        "clusterSize": 2,
+        "numClusters": 1,
+        "meanHeight": 12,
+        "maxVariance": 8,
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "diamond_volcanic": {
+        "template": { "type": "underfluid", "generator": "plate" },
+        "block": "diamond_ore",
+        "material": "minecraft:stone",
+        "chunkChance": 4,
+        "clusterSize": 2,
+        "numClusters": 4,
+        "sizeVariance": 1,
+        "slim": true,
+        "genFluid": "lava",
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "dirt": {
+        "template": { "type": "cave", "generator": "plate" },
+        "block": "minecraft:dirt",
+        "material": "minecraft:stone",
+        "ceiling": false,
+        "clusterSize": 3,
+        "numClusters": 16,
+        "sizeVariance": 2,
+        "biomeRestriction": "whitelist",
+        "slim": true,
+        "biomes": [
+            { "type": "temperature", "entry": "MEDIUM" }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "emerald": {
+        "template": "normal",
+        "block": "minecraft:emerald_ore",
+        "material": "minecraft:stone",
+        "chunkChance": 16,
+        "clusterSize": 2,
+        "numClusters": 4,
+        "meanHeight": 12,
+        "maxVariance": 8,
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "gravel": {
+        "template": { "type": "cave", "generator": "plate" },
+        "block": "minecraft:gravel",
+        "material": "minecraft:stone",
+        "ceiling": false,
+        "clusterSize": 3,
+        "numClusters": 16,
+        "sizeVariance": 2,
+        "slim": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            { "type": "temperature", "entry": "COLD" }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "gold": {
+        "template": "normal",
+        "block": "minecraft:gold_ore",
+        "material": "minecraft:stone",
+        "chunkChance": 16,
+        "clusterSize": 8,
+        "numClusters": 16,
+        "meanHeight": 16,
+        "maxVariance": 8,
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "iron": {
+        "template": "normal",
+        "block": "minecraft:iron_ore",
+        "material": "minecraft:stone",
+        "chunkChance": 12,
+        "clusterSize": 12,
+        "numClusters": 16,
+        "meanHeight": 32,
+        "maxVariance": 16,
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "lapis": {
+        "template": { "type": "normal", "generator": "plate" },
+        "block": "minecraft:lapis_ore",
+        "material": "minecraft:stone",
+        "chunkChance": 4,
+        "clusterSize": 3,
+        "numClusters": 4,
+        "meanHeight": 64,
+        "maxVariance": 16,
+        "sizeVariance": 1,
+        "height": 1,
+        "slim": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            { "type": "dictionary", "entry": "RIVER" }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "sand": {
+        "template": { "type": "cave", "generator": "plate" },
+        "block": "minecraft:sand",
+        "material": "minecraft:stone",
+        "ceiling": false,
+        "clusterSize": 3,
+        "numClusters": 16,
+        "sizeVariance": 2,
+        "slim": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            { "type": "temperature", "entry": "WARM" }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    }
+}

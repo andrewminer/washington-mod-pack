@@ -1,0 +1,33 @@
+{
+    "yellorite_desert": {
+        "template": "uniform",
+        "block": "BigReactors:YelloriteOre",
+        "material": "minecraft:sandstone",
+        "clusterSize": 2,
+        "numClusters": 92,
+        "minHeight": 56,
+        "maxHeight": 255,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            { "type": "dictionary", "entry": [ "HOT", "DRY" ] }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    },
+    "yellorite_ocean": {
+        "template": "uniform",
+        "block": "BigReactors:YelloriteOre",
+        "material": "minecraft:stone",
+        "chunkChance": 3,
+        "clusterSize": 3,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            { "type": "dictionary", "entry": "OCEAN" }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    }
+}

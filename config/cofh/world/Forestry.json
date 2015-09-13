@@ -1,0 +1,21 @@
+{
+    "apatite_ore": {
+        "template": { "type": "normal", "generator": "plate" },
+        "block": "Forestry:resources",
+        "material": "minecraft:stone",
+        "chunkChance": 16,
+        "clusterSize": 6,
+        "numClusters": 4,
+        "meanHeight": 64,
+        "maxVariance": 8,
+        "sizeVariance": 4,
+        "slim": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            { "type": "dictionary", "entry": "SWAMP" },
+            { "type": "dictionary", "entry": "PLAINS" }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [ -1, 1 ]
+    }
+}

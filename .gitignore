@@ -1,3 +1,4 @@
+.DS_Store
 asm
 blueprints
 crash-reports
@@ -6,6 +7,7 @@ logs
 minecraft_server.1.7.10.jar
 ops.json
 reports
+server.stdin
 usercache.json
 usernamecache.json
 worldSpecificConfig
